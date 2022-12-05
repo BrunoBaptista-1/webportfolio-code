@@ -22,7 +22,7 @@ Front-end:
  
 
 Back-end:
-- The virtual assistant is build under Rasa Open Source, which is hosted and on my local machine.
+- The virtual assistant is built under Rasa Open Source, which is hosted and on my local machine. It uses YAML when registering bot utterances, and its actions (i.e. performing any access to a database/peforming API calls) are programmed in Python.
 - In order to respond to the user, via API calls performed on message sent through the chat interface, the virtual assistant was made accessible through ngrok (source: https://ngrok.com/) by performing a reverse proxy, allowing the bot to respond to the user's utterances.
 - When the virtual assistant is prompted about the weather of a city, an API call is performed to OpenWeatherMap (source: https://openweathermap.org/), in order to respond accordingly.
 
